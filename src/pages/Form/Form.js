@@ -38,7 +38,7 @@ function Form() {
             }
         })
             .then(response => {
-                console.log(response.data);
+                alert('Submitted Successfully!');
             })
             .catch(error => {
                 console.error(error);
