@@ -1,0 +1,36 @@
+.date-picker {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+
+    .datepicker {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.54;
+        margin: 1.5em 0 3px;
+        padding: 0;
+        margin-top: 0;
+        display: block;
+        width: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .date {
+        font-weight: 400;
+        background: none;
+        line-height: 1.54;
+        background-color: white;
+        color: #637282;
+        height: 44px;
+        margin-top: 16px;
+        padding: 12px;
+        width: 100%;
+        font-size: 13px;
+
+        &--attach {
+            padding: 0;
+        }
+    }
+}

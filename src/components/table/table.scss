@@ -1,0 +1,32 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+tr {
+    border-bottom: 1px solid grey;
+}
+
+th,
+td {
+    padding: 8px;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+
+}
+
+.table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.caption-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

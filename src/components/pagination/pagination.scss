@@ -1,0 +1,13 @@
+.pagination {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.btn {
+    margin: 5px;
+
+    .active{
+        background-color: gray;
+    }
+}

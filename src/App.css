@@ -1,0 +1,40 @@
+body {
+  font-family: 'Open Sans Condensed';
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  margin: auto 10px;
+  padding: 0;
+  width: 83.33333% !important;
+  max-width: 1080px;
+}
+
+@media screen and (min-width: 768px) {
+  .App {
+    margin: auto;
+  }
+
+  body {
+    padding: 20px 60px;
+  }
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  border: 2px solid black;
+  outline: none;
+}

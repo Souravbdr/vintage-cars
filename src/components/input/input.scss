@@ -1,0 +1,60 @@
+.inp-label {
+    margin: 15px;
+
+    &--radio {
+        display: flex;
+        flex-direction: row;
+        margin: 15px;
+        justify-content: space-between;
+
+        .radio-item {
+            width: 90%;
+
+            .radio-btn:checked {
+                background-color: white;
+            }
+
+            .radio-btn:checked::before {
+                content: "";
+                display: block;
+                position: relative;
+                top: 2px;
+                left: 2.5px;
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                background-color: black;
+            }
+        }
+    }
+    .label {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.54;
+        margin: 1.5em 0 3px;
+        padding: 0;
+        margin-top: 0;
+        display: block;
+        width: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .input {
+        font-weight: 400;
+        background: none;
+        line-height: 1.54;
+        background-color: white;
+        color: #637282;
+        height: 44px;
+        margin-top: 16px;
+        padding: 12px;
+        width: 100%;
+        font-size: 13px;
+
+        &--attach {
+            padding: 0;
+        }
+    }
+}
